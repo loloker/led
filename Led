@@ -1,0 +1,10 @@
+int led = 13; //En esta linea, se define donde conectamos el Led en este caso en el pin nº13 de la placa.
+                void setup(){
+                    pinMode(Led,OUTPUT); //esta funcion determina que el Pin sera de salida.
+                }
+                void loop(){
+                    digitalWrite(Led, HIGH);  //Con la funcion digitalWrite ,enciende el led pasando el parametro HIGH
+                    delay(1000);              //aqui se le da un tiempo determinado.
+                    digitalWrite(Led, LOW);   //Con la funcion digitalWrite ,apaga el led pasando el parametro LOW
+                    delay(1000)
+                }
